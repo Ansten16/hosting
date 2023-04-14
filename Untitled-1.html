@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<!-- link to your CSS file -->
+	<link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hello, my name is Jenifer and I am an UI/UX Developer. I am passionate about design and enjoy creating beautiful and functional interfaces.</p>
+		</section>
+		<section id="projects">
+			<h2>My Projects</h2>
+			<div class="project">
+				<a href="shorturl.at/hjyOX" target="_blank"><img src="C:\Users\MYPC\Desktop\New folder\figma.jpg"></a>
+				<h3>Ansten's Camera Application</h3>
+				<p>My first Ui project using Figma</p>
+			</div>
+			<!-- add more projects as needed -->
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form action="[your form submission URL]" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Jenifer G. All rights reserved.</p>
+	</footer>
+</body>
+</html>
